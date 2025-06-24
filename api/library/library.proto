@@ -6,7 +6,7 @@ import "google/protobuf/timestamp.proto";
 import "google/api/annotations.proto";
 import "validate/validate.proto";
 
-option go_package = "github.com/Go-CT-ITMO/library-SolarDm/api/library;library";
+option go_package = "github.com/library/api/library;library";
 
 service Library {
   rpc AddBook(AddBookRequest) returns (AddBookResponse) {
